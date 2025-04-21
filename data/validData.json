@@ -1,0 +1,10 @@
+{
+  "clientName": "Musterman GmbH",
+  "invoiceDate": "2025-04-21",
+  "dueDate": "2025-04-30",
+  "notes": "Service is not taxable in Germany, VAT 0%",
+  "items": [
+    { "description": "Consulting", "quantity": 5, "price": 100 },
+    { "description": "Hosting", "quantity": 2, "price": 50 }
+  ]
+}

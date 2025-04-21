@@ -1,0 +1,9 @@
+{
+  "clientName": "",
+  "invoiceDate": "2025-04-21",
+  "dueDate": "2025-04-30",
+  "notes": "",
+  "items": [
+    { "description": "Support", "quantity": 1, "price": 150 }
+  ]
+}
