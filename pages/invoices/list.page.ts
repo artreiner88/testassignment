@@ -10,6 +10,6 @@ export class ListPage {
 
     // GET the newest invoice
     async getInvoice() {
-        return this.page.locator("#invoice").first();
+        return this.page.locator(".invoice_list").first();
     }
 }
