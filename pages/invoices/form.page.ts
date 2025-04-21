@@ -13,12 +13,12 @@ export class FormPage {
 
     // The date should be selected using a date picker and automated accordingly
     async setInvoiceDate(date: string) {
-        await this.page.locator('#invoiceDate').fill(date);
+        await this.page.getByRole("textbox", { name: "Invoice Date" }).fill(date);
     }
 
     // The date should be selected using a date picker and automated accordingly
     async setDueDate(date: string) {
-        await this.page.locator('#dueDate').fill(date);
+        await this.page.getByRole("textbox", { name: "Due Date" }).fill(date);
     }
 
     async clickAddLineItem() {
